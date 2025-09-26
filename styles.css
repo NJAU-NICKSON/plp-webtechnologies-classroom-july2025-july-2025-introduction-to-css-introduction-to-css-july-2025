@@ -1,0 +1,81 @@
+/* General Page Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 20px; /* space inside the header */
+  margin-bottom: 20px; /* space outside the header */
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 10px; /* inside the nav */
+  margin: 0; /* outside nav removed */
+}
+
+nav ul li {
+  margin: 0 15px; /* spacing between items */
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Content Section */
+.content {
+  background-color: #e8f5e9;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid #4CAF50;
+}
+
+/* Cards Section */
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 15px; /* space inside card */
+  margin: 10px; /* space outside card */
+  border: 2px solid #4CAF50;
+  width: 45%;
+  box-sizing: border-box; /* includes padding/border in width */
+  text-align: center;
+}
+
+.card button {
+  padding: 10px 15px;
+  margin-top: 10px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #333;
+  color: white;
+  margin-top: 20px;
+}
